@@ -1,0 +1,41 @@
+# Datasets (too large for git)
+datasets/*
+!datasets/.gitkeep
+!datasets/README.md
+
+# Build artifacts
+ORB_SLAM3/build/
+ORB_SLAM3/lib/
+ORB_SLAM3/Examples/Monocular/mono_euroc
+ORB_SLAM3/Examples/Stereo/stereo_euroc
+*.so
+*.a
+
+# Results (large files)
+results/*.bag
+results/*.mcap
+results/*.avi
+results/*.mp4
+
+# Vocabulary files (will download separately)
+*.tar.gz
+Vocabulary/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ROS
+build/
+install/
+log/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
