@@ -1,0 +1,30 @@
+# Datasets - too large for git
+datasets/
+
+# Build artifacts
+*.so
+*.o
+*.a
+build/
+bin/
+
+# ORB-SLAM3 and Pangolin builds (tracked as submodules later)
+ORB_SLAM3/build/
+ORB_SLAM3/lib/
+ORB_SLAM3/Thirdparty/DBoW2/build/
+ORB_SLAM3/Thirdparty/g2o/build/
+Pangolin/build/
+
+# Results and outputs
+results/
+*.txt
+*.ply
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
